@@ -1,0 +1,35 @@
+# for new dvc project to inititalize
+
+dvc init
+
+# to add a file in dvc project
+
+dvc add
+
+## to do multiple experiment
+
+dvc repro    by using dvc.yaml
+
+# to push dvc into remote location or url
+
+dvc push
+
+## to add url or repo
+dvc remote add "url"
+
+dvc dag
+
+
+
+##############
+after the command i get this 
+
+To track the changes with git, run:
+
+        git add .gitignore stage_1.py.dvc
+
+To enable auto staging, run:
+
+        dvc config core.autostage true
+
+        

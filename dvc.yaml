@@ -13,5 +13,10 @@ stages:
     deps: 
       - file_1.txt
       - stage_1.py
-
+  
+  stage_03:
+    cmd: python stage_3.py
+    deps: 
+      - stage_1.py
+      - file_1.txt
 

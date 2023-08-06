@@ -5,8 +5,8 @@ stages:
     deps:
     - path: stage_1.py
       hash: md5
-      md5: 7e6ad5817db122320808017bee863313
-      size: 97
+      md5: 12c6fd4add2d93e2f187d74e67495afe
+      size: 106
     outs:
     - path: file_1.txt
       hash: md5
@@ -21,5 +21,16 @@ stages:
       size: 37
     - path: stage_1.py
       hash: md5
-      md5: 7e6ad5817db122320808017bee863313
-      size: 97
+      md5: 12c6fd4add2d93e2f187d74e67495afe
+      size: 106
+  stage_03:
+    cmd: python stage_3.py
+    deps:
+    - path: file_1.txt
+      hash: md5
+      md5: 3dd5dbfe5519f37e4fa3eee1c978c145
+      size: 37
+    - path: stage_1.py
+      hash: md5
+      md5: 12c6fd4add2d93e2f187d74e67495afe
+      size: 106

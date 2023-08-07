@@ -33,3 +33,11 @@ To enable auto staging, run:
         dvc config core.autostage true
 
         
+
+
+git checkout <key>   ..> for key : Run : git log
+.
+.
+.
+dvc checkout   --> it will change the data or files within the local by previous commit changes 
+

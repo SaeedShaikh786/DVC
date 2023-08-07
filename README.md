@@ -57,7 +57,19 @@ dvc dag
 
 ```
 
+#### linux bash command 
+```
+mkdir /tmp/dvcstore    --> for making the remote location inside local
+
+dvc remote add -d myremote /tmp/dvcstore    ---> adding that location to dvc for storing data
+
+```
+#### then push the chnages to dvc ..
+```
+dvc push
+```
 ### 
+
 ```
 git checkout <key>  --> for key : Run : git log
 .
@@ -66,4 +78,14 @@ git checkout <key>  --> for key : Run : git log
 
 dvc checkout  --> it will change the data or files within the local by previous commit changes 
 
+```
+
+## Link of the DVC documentation
+```
+https://dvc.org/doc/start/data-management/data-versioning
+
+```
+### DVC Studio link
+```
+https://dvc.org/doc/studio/user-guide/projects-and-experiments/explore-ml-experiments
 ```
